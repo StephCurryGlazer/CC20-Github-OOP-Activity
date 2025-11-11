@@ -62,11 +62,55 @@ Before you clone the repository, make sure your Git and SSH are correctly config
 
 ## 🧱 1. Setup
 
-### Clone the Repository
-```bash
-git clone https://github.com/<teacher-username>/program-collection.git
-cd program-collection
+### Fork the Repository
+⚠️ CRITICAL: Do this FIRST before cloning!
+1. Go to the instructor's repository:
+```text
+https://github.com/MichaelPagaran/CC20-Github-OOP-Activity
 ```
+2. Click the "Fork" button (top right corner, next to "Star")
+3. GitHub will ask "Where should we fork this repository?"
+    - Select YOUR account
+4. Wait for GitHub to create your fork (takes a few seconds)
+5. You'll be redirected to YOUR fork:
+    ```
+    https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity
+    ```
+    ✅ Success indicator: You should see "forked from MichaelPagaran/CC20-Github-OOP-Activity" under the repository name
+6. Clone YOUR Fork (Not the Instructor's!)
+    - Using SSH (Recommended):
+    ```
+        # Clone YOUR fork (replace YOUR-USERNAME!)
+        git clone git@github.com:YOUR-USERNAME/CC20-Github-OOP-Activity.git
+
+        # Enter the directory
+        cd CC20-Github-OOP-Activity
+    ```
+    - Using HTTPS (If SSH doesn't work):
+    ```
+    # Clone YOUR fork
+    git clone https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git
+
+    # Enter the directory
+    cd CC20-Github-OOP-Activity
+    ```
+    - Verify You Cloned YOUR Fork:
+    ```
+    # Check the remote URL
+    git remote -v
+    ```
+        - Expected output (SSH):
+        ```
+        origin  git@github.com:YOUR-USERNAME/CC20-Github-OOP-Activity.git (fetch)
+        origin  git@github.com:YOUR-USERNAME/CC20-Github-OOP-Activity.git (push)
+        ```
+        - Expected output (HTTPS):
+        ```
+        origin  https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git (fetch)
+        origin  https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git (push)
+        ```
+        ✅ CORRECT: You see YOUR username
+        ❌ WRONG: You see "MichaelPagaran" → You cloned the wrong repo!
 
 ### Switch to the develop Branch
 ```bash
@@ -154,3 +198,4 @@ git merge develop
 ## ✅ 10. After Approval
 Once your PR is merged — congratulations! 🎉
 Your work becomes part of the official collection.
+
