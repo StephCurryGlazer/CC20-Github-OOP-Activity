@@ -110,6 +110,7 @@ https://github.com/MichaelPagaran/CC20-Github-OOP-Activity
         origin  https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git (push)
         ```
    ✅ CORRECT: You see YOUR username
+   
    ❌ WRONG: You see "MichaelPagaran" → You cloned the wrong repo!
 
 
