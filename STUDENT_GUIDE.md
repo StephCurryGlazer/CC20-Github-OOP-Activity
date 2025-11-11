@@ -109,8 +109,9 @@ https://github.com/MichaelPagaran/CC20-Github-OOP-Activity
         origin  https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git (fetch)
         origin  https://github.com/YOUR-USERNAME/CC20-Github-OOP-Activity.git (push)
         ```
-        ✅ CORRECT: You see YOUR username
-        ❌ WRONG: You see "MichaelPagaran" → You cloned the wrong repo!
+   ✅ CORRECT: You see YOUR username
+   ❌ WRONG: You see "MichaelPagaran" → You cloned the wrong repo!
+
 
 ## 🪪 2. Create an Issue on GitHub
 Open the repository in GitHub.
