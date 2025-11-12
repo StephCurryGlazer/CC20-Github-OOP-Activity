@@ -146,7 +146,7 @@ TEMPLATE_YourProgram.java
 ```
 2. Paste it inside a new folder in programs/, example:
 ```
-programs/martin/MyCoolProgram.java
+programs/programname/MyCoolProgram.java
 ```
 3. Edit your file:
 - Change the class name
